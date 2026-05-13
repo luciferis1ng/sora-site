@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Ground | SoRa</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #050505;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .page {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 48px;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #d8d8d8;
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 30px;
+      align-items: start;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .home-link {
+      display: inline-block;
+      margin-top: 35px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid white;
+      padding: 12px 24px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 800px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <h1>Training Ground</h1>
+
+    <div class="subtitle">
+      Guides, reminders, event prep, and SoRa survival lessons.
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <img src="assets/images/salty.png" alt="Salty Training Reminder">
+      </div>
+
+      <div class="card">
+        <img src="assets/images/alliance-duel-bulletin.png" alt="Alliance Duel Bulletin">
+      </div>
+    </div>
+
+    <a class="home-link" href="index.html">Return Home</a>
+  </div>
+</body>
+</html>
